@@ -14,7 +14,7 @@ class FuncionarioTest {
 
     @Test
     void  executandoEfetivo(){
-        Efetivo efetivo = new Efetivo("Lucas", "Ramalho", "5444-4", "Conta-Corrente", 15500, 3500, 480);
+        Efetivo efetivo = new Efetivo("Joao", "Dos Santos", "6555-4", "Conta-Pupanca", 15500, 3500, 480);
 
         efetivo.pagamentoDeSalario();
     }
